@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+@font-face {
+    font-family: WorkSans-regular;
+    src: url(./../Fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: WorkSans-bold;
+    src: url(./../Fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: WorkSans-light;
+    src: url(./../Fonts/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: WorkSans-e-bold;
+    src: url(./../Fonts/WorkSans-ExtraBold.ttf);
+}
+.worksans{
+    font-family: WorkSans-regular;
+}
+.worksans-bold{
+    font-family: WorkSans-bold;
+}
+.worksans-light{
+    font-family: WorkSans-light;
+}
+.worksans-e-bold{
+    font-family: WorkSans-e-bold;
+}
+.d-flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.align-item-center{
+    align-items: center;
+}
+.innovation{
+    font-size: 5rem;
+    color: #e21c22ed;
+    background-color: rgb(248, 206, 206);
+    padding: 4px 12px;
+    border-radius: 10px;
+}
+.fs10{
+    font-size: 0.3rem;
+}
+.fs20{
+    font-size: 1.5rem;
+}
+.fs32{
+    font-size: 6rem;
+}
+.fs22{
+    font-size: 22px;
+}
+.fs80{
+    font-size: 80px;
+}
+.fs46{
+    font-size: 46px;
+}
+.fs50{
+    font-size: 50px;
+}
+.lh20{
+    line-height: 20px;
+}
+.color-green{
+    color: #009746;
+}
+.color-black{
+    color: #000000;
+}
+.color-grey{
+    color: rgb(20, 19, 19);
+}
+.bg-color-skyblue{
+    background-color: #e7fbfc;
+}
+.color-aqua{
+    color: #168993;
+}
+.bg-color-blue{
+    background-color: #168993;
+}
+.discover-btn{
+    height: 120px;
+    width: 350px;
+    border-radius: 100px;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #e21c22;
+    border: none;
+    outline: none;
+}
+.visit-btn{
+    height: 120px;
+    width: 350px;
+    border-radius: 100px;
+    font-size: 1.6rem;
+    color: white;
+    background-color: #168993;
+    border: none;
+}
+.about-us-banner{
+    background-color: #e21c22;
+    /* padding: 130px; */
+    padding: 130px 0;
+}
+.about-us-img{
+    background-image: url(./../Images/logo-cutout.svg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* background-position: fixed; */
+}
+.why-choose-us-img{
+    background-image: url(./../Images/daily-dava-white-logo.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* padding-top: 50px; */
+    /* margin-top: 100px; */
+    height: 500px;
+    
+}
+b.left{
+    border-left: 1px solid black;
+    height: 100%;
+}
+.mt150{
+    margin-top: 150px;
+}
+.mt45{
+    margin-top: 42px;
+}
+.mt140{
+    margin-top: 140px;
+}
+.mt145{
+    margin-top: 115px;
+}
+.mt180{
+    margin-top: 140px;
+}
+.mt80{
+    margin-top: -80px;
+}
+.mt70{
+    margin-top: 70px;
+}
+.mt120{
+    margin-top: 120px;
+}
+.mt130{
+    margin-top: 130px;
+}
+.mt280{
+    margin-top: 280px;
+}
+.pt100{
+    padding-top: 400px;
+}
+.pt200{
+    padding-top: 200px;
+}
+.pr50{
+    padding-right: 150px;
+}
+.pr26{
+    padding-right: 11px;
+}
+.ml150{
+    margin-left: 150px;
+}
+.p20{
+    /* padding: 20px; */
+}
+.pl16{
+    padding-left: 20px;
+}
+.pr16{
+    padding-right: 16px;
+}
+.review-details{
+    font-size: 2.7rem;
+    font-weight: bolder;
+    color: #000000;
+}
+.review-1{
+    border-right: 1px solid rgb(184, 182, 182);
+}
+.review-3{
+    border-top: 1px solid rgb(184, 182, 182);
+}
+.b-top-white{
+    border-top: 1px solid white;
+}
+.bg-img-pattern{
+    position: absolute;
+    right: 30px;
+    /* top: 0; */
+    /* bottom: 0; */
+    overflow: hidden;
+}
+
+.icn1::after{
+    content: url();
+    position: absolute;
+    border-left: 1px solid white;
+    display: inline;
+    height: 198px;
+    right: 2px;
+}
+.icn2::after{
+    content: url();
+    position: absolute;
+    border-left: 1px solid white;
+    display: inline;
+    height: 300px;
+    right: 2px;
+
+}
+
